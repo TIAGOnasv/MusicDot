@@ -1,0 +1,88 @@
+.rodape {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: 0.7rem;
+}
+.rodape-logo {
+  width: 11.25em;
+  margin-bottom:1em;
+}
+.rodape-lista-sociai s {
+  display: flex;
+  justify-content: center;
+}
+.rodape-info {
+  line-height: 1.5em;
+}
+.rodape-lista-sociais {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+.rodape-lista-sociais-item {
+  width:2.62em;
+  margin: 0 0.25em;
+}
+.rodape-lista-sociais-item img {
+  width: 100%;
+}
+.rodape-titulo {
+  margin-bottom: 1em;
+  font-size: 1.45em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.rodape-item-lista {
+  font-weight:500;
+  margin: 0.625em 0;
+}
+@media (max-width:640px) {
+  .rodape-secao + .rodape-secao {
+    margin-top: 2em;
+  }
+}
+@media (min-width:640px) and (max-width:1200px) {
+  .rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1em;
+  }
+  .rodape-secao {
+    width: 45%;
+  }
+  .rodape-secao-cursos {
+    order: 1;
+    margin: 0;
+  }
+  .rodape-secao-links {
+    order: 2;
+    margin: 0;
+  }
+  .rodape-secao-sobre {
+   order: 3; 
+   margin-top: 2em;
+  }
+  .rodape-secao-form {
+    order: 4;
+    margin-top: 2em;
+  }
+}
+@media (min-width:1200px) {
+  .rodape {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    text-align: left;
+  }
+  .rodape-titulo {
+    font-size: 1em;
+  .rodape-lista-sociais {
+    justify-content: left;
+  }
+  .rodape-secao {
+    margin-top: 0;
+    margin: 2em;
+  }
+}

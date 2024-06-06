@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  
+  border-radius: 7px;
+  border: 2px solid #e93d50;
+  background-color: #e93d50;
+}
+.form-label {
+  position: absolute;
+  left: -100000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.form-campo {
+  padding: .6em .4em;
+  flex-grow: 1;
+  border: none;
+}
+.form-button {
+  flex-grow: 1;
+  border: none;
+  
+  text-transform: uppercase;
+  font-weight: 600;
+  
+  color: #fff;
+  background-color: #e93d50;
+}
